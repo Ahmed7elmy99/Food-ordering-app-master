@@ -48,7 +48,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: true,
         title: 'Food Ordering App',
         theme: ThemeData(
           scaffoldBackgroundColor: GlobalVariables.backgroundColor,
