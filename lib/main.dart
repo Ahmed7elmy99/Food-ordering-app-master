@@ -13,6 +13,9 @@ import 'package:food_ordering_app/widgets/bottom_bar.dart';
 import 'package:provider/provider.dart';
 import 'routers/router.dart';
 
+//test
+//ahmed
+//khaledd
 void main() {
   runApp(MultiProvider(
     providers: [
@@ -46,7 +49,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
+        debugShowCheckedModeBanner: true,
         title: 'Food Ordering App',
         theme: ThemeData(
           scaffoldBackgroundColor: GlobalVariables.backgroundColor,
